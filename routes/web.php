@@ -23,7 +23,7 @@ Route::get('/login', function () {
 
 Route::get('/checkout', function () {
     return view('checkout');
-})->name('login');
+})->name('checkout');
 
 Route::get('/success-checkout', function () {
     return view('success-checkout');

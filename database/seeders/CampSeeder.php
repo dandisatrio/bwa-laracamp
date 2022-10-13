@@ -20,15 +20,15 @@ class CampSeeder extends Seeder
                 'title' => 'Camp Laravel Backend',
                 'slug' => 'camp-laravel-backend',
                 'price' => 500000,
-                'created_at' => date('Y-m-d H:i:s', time()),
-                'updated_at' => date('Y-m-d H:i:s', time()),
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'title' => 'Camp UI/UX',
                 'slug' => 'camp-uiux',
                 'price' => 280000,
-                'created_at' => date('Y-m-d H:i:s', time()),
-                'updated_at' => date('Y-m- d H:i:s', time()),
+                'created_at' => now(),
+                'updated_at' => now(),
             ]
         ];
 
